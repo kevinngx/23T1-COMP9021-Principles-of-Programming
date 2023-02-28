@@ -1,6 +1,7 @@
 from random import seed, randrange
 import sys
 
+
 # Prompts the user for an integer to provide as argument to the
 # seed() function.
 try:
@@ -26,14 +27,18 @@ print()
 
 # kevinngx implementing from below
 
+# Create a dictionary of range + counts
 ranges = [{"range":[0,4], "count":0}, {"range":[5,9], "count":0}, {"range":[10,14], "count":0}, {"range":[15,19], "count":0}]
 
+# For each number in the list, check what range it fits into
 for n in L:
     for range in ranges:
         if range["range"][0] <= n & n <= range["range"][1]: range["count"] = range["count"] + 1
 
+# Print out, with specific formatting whether the count is 0, 1 or >1
 for range in ranges:
     match range["count"]:
         case 0: print(f'There is no element between {range["range"][0]} and {range["range"][1]}.') 
         case 1: print(f'There is {range["count"]} element between {range["range"][0]} and {range["range"][1]}.') 
         case _: print(f'There are {range["count"]} elements between {range["range"][0]} and {range["range"][1]}.') 
+
