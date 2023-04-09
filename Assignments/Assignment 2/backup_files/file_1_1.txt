@@ -1,0 +1,17 @@
+A line to delete: 1
+A line to delete: 2
+A line that stays: 1
+A line that stays: 2
+A line to change: 1
+A line that stays: 3
+A line that stays: 4
+A line that stays: 5
+A line that stays: 6
+A line to delete: 3
+A line that stays: 7
+A line that stays: 8
+A line to change: 2
+A line to change: 3
+A line to change: 4
+A line to change: 5
+A line that stays: 9

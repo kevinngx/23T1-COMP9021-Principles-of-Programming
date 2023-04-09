@@ -1,0 +1,16 @@
+A line that stays: 1
+A line to insert: 1
+A line that stays: 2
+A changed line: 1
+A line that stays: 3
+A line that stays: 4
+A line to insert: 2
+A line to insert: 3
+A line that stays: 5
+A line that stays: 6
+A line that stays: 7
+A line that stays: 8
+A changed line: 2
+A changed line: 3
+A changed line: 4
+A line that stays: 9
